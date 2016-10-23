@@ -11,9 +11,9 @@ import Foundation
 typealias JsonObject = [String: AnyObject]
 
 public /* abstract */ class PBXObject {
-  let id: String
+  public let id: String
   let dict: JsonObject
-  let allObjects: AllObjects
+  public let allObjects: AllObjects
 
   public lazy var isa: String = self.string("isa")!
 
@@ -23,7 +23,7 @@ public /* abstract */ class PBXObject {
     self.allObjects = allObjects
   }
 
-  func bool(_ key: String) -> Bool? {
+  public func bool(_ key: String) -> Bool? {
     guard let string = dict[key] as? String else { return nil }
 
     switch string {
@@ -36,15 +36,15 @@ public /* abstract */ class PBXObject {
     }
   }
 
-  func string(_ key: String) -> String? {
+  public func string(_ key: String) -> String? {
     return dict[key] as? String
   }
 
-  func strings(_ key: String) -> [String]? {
+  public func strings(_ key: String) -> [String]? {
     return dict[key] as? [String]
   }
 
-  func object<T : PBXObject>(_ key: String) -> T? {
+  public func object<T : PBXObject>(_ key: String) -> T? {
     guard let objectKey = dict[key] as? String else {
       return nil
     }
@@ -53,12 +53,12 @@ public /* abstract */ class PBXObject {
     return obj
   }
 
-  func object<T : PBXObject>(_ key: String) -> T {
+  public func object<T : PBXObject>(_ key: String) -> T {
     let objectKey = dict[key] as! String
     return allObjects.object(objectKey)
   }
 
-  func objects<T : PBXObject>(_ key: String) -> [T] {
+  public func objects<T : PBXObject>(_ key: String) -> [T] {
     let objectKeys = dict[key] as! [String]
     return objectKeys.map(allObjects.object)
   }

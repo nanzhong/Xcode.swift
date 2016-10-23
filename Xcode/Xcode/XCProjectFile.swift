@@ -28,8 +28,8 @@ enum ProjectFileError : Error, CustomStringConvertible {
 }
 
 public class AllObjects {
-  var dict: [String: PBXObject] = [:]
-  var fullFilePaths: [String: Path] = [:]
+  public var dict: [String: PBXObject] = [:]
+  public var fullFilePaths: [String: Path] = [:]
 
   func object<T : PBXObject>(_ key: String) -> T {
     let obj = dict[key]!
