@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E21D91A01B7B1A5D00FD0374 /* Xcode.h in Headers */ = {isa = PBXBuildFile; fileRef = E21D919F1B7B1A5D00FD0374 /* Xcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E1E4BB1DBD58BE00A5DA3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1E4B51DBD58BE00A5DA3A /* Extensions.swift */; };
+		39E1E4BD1DBD58BE00A5DA3A /* PBXObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1E4B71DBD58BE00A5DA3A /* PBXObject.swift */; };
+		39E1E4BE1DBD58BE00A5DA3A /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1E4B81DBD58BE00A5DA3A /* Serialization.swift */; };
+		39E1E4BF1DBD58BE00A5DA3A /* Xcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E1E4B91DBD58BE00A5DA3A /* Xcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E1E4C01DBD58BE00A5DA3A /* XCProjectFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1E4BA1DBD58BE00A5DA3A /* XCProjectFile.swift */; };
+		39E1E4C91DBD591600A5DA3A /* XcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1E4C41DBD58E100A5DA3A /* XcodeTests.swift */; };
 		E21D91A61B7B1A5D00FD0374 /* Xcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21D919A1B7B1A5D00FD0374 /* Xcode.framework */; };
-		E21D91AD1B7B1A5D00FD0374 /* XcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D91AC1B7B1A5D00FD0374 /* XcodeTests.swift */; };
-		E21D91B71B7B1A9000FD0374 /* XCProjectFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D91B61B7B1A9000FD0374 /* XCProjectFile.swift */; };
-		E292B9C51B9236B500D75DE2 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292B9C41B9236B500D75DE2 /* Serialization.swift */; };
-		E292B9C91B92380300D75DE2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292B9C81B92380300D75DE2 /* Extensions.swift */; };
-		E292B9CB1B92384B00D75DE2 /* PBXObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292B9CA1B92384B00D75DE2 /* PBXObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39E1E4B51DBD58BE00A5DA3A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		39E1E4B61DBD58BE00A5DA3A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		39E1E4B71DBD58BE00A5DA3A /* PBXObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBXObject.swift; path = Sources/PBXObject.swift; sourceTree = "<group>"; };
+		39E1E4B81DBD58BE00A5DA3A /* Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serialization.swift; path = Sources/Serialization.swift; sourceTree = "<group>"; };
+		39E1E4B91DBD58BE00A5DA3A /* Xcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Xcode.h; path = Sources/Xcode.h; sourceTree = "<group>"; };
+		39E1E4BA1DBD58BE00A5DA3A /* XCProjectFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XCProjectFile.swift; path = Sources/XCProjectFile.swift; sourceTree = "<group>"; };
+		39E1E4C31DBD58E100A5DA3A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
+		39E1E4C41DBD58E100A5DA3A /* XcodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XcodeTests.swift; path = Tests/XcodeTests.swift; sourceTree = "<group>"; };
 		E21D919A1B7B1A5D00FD0374 /* Xcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E21D919E1B7B1A5D00FD0374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E21D919F1B7B1A5D00FD0374 /* Xcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xcode.h; sourceTree = "<group>"; };
 		E21D91A51B7B1A5D00FD0374 /* XcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E21D91AB1B7B1A5D00FD0374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E21D91AC1B7B1A5D00FD0374 /* XcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTests.swift; sourceTree = "<group>"; };
-		E21D91B61B7B1A9000FD0374 /* XCProjectFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCProjectFile.swift; sourceTree = "<group>"; };
-		E292B9C41B9236B500D75DE2 /* Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serialization.swift; sourceTree = "<group>"; };
-		E292B9C81B92380300D75DE2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		E292B9CA1B92384B00D75DE2 /* PBXObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBXObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39E1E4C11DBD58C700A5DA3A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				39E1E4C21DBD58D100A5DA3A /* Supporting Files */,
+				39E1E4B51DBD58BE00A5DA3A /* Extensions.swift */,
+				39E1E4B71DBD58BE00A5DA3A /* PBXObject.swift */,
+				39E1E4B81DBD58BE00A5DA3A /* Serialization.swift */,
+				39E1E4BA1DBD58BE00A5DA3A /* XCProjectFile.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		39E1E4C21DBD58D100A5DA3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E1E4B61DBD58BE00A5DA3A /* Info.plist */,
+				39E1E4B91DBD58BE00A5DA3A /* Xcode.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39E1E4C71DBD58EE00A5DA3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E1E4C31DBD58E100A5DA3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39E1E4C81DBD58F800A5DA3A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39E1E4C71DBD58EE00A5DA3A /* Supporting Files */,
+				39E1E4C41DBD58E100A5DA3A /* XcodeTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 		E21D91901B7B1A5D00FD0374 = {
 			isa = PBXGroup;
 			children = (
-				E21D919C1B7B1A5D00FD0374 /* Xcode */,
-				E21D91A91B7B1A5D00FD0374 /* XcodeTests */,
+				39E1E4C11DBD58C700A5DA3A /* Sources */,
+				39E1E4C81DBD58F800A5DA3A /* Tests */,
 				E21D919B1B7B1A5D00FD0374 /* Products */,
 			);
 			indentWidth = 2;
@@ -79,44 +117,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E21D919C1B7B1A5D00FD0374 /* Xcode */ = {
-			isa = PBXGroup;
-			children = (
-				E292B9C81B92380300D75DE2 /* Extensions.swift */,
-				E292B9CA1B92384B00D75DE2 /* PBXObject.swift */,
-				E292B9C41B9236B500D75DE2 /* Serialization.swift */,
-				E21D919D1B7B1A5D00FD0374 /* Supporting Files */,
-				E21D91B61B7B1A9000FD0374 /* XCProjectFile.swift */,
-			);
-			path = Xcode;
-			sourceTree = "<group>";
-		};
-		E21D919D1B7B1A5D00FD0374 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E21D919F1B7B1A5D00FD0374 /* Xcode.h */,
-				E21D919E1B7B1A5D00FD0374 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E21D91A91B7B1A5D00FD0374 /* XcodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				E21D91AC1B7B1A5D00FD0374 /* XcodeTests.swift */,
-				E21D91AA1B7B1A5D00FD0374 /* Supporting Files */,
-			);
-			path = XcodeTests;
-			sourceTree = "<group>";
-		};
-		E21D91AA1B7B1A5D00FD0374 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E21D91AB1B7B1A5D00FD0374 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -124,7 +124,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21D91A01B7B1A5D00FD0374 /* Xcode.h in Headers */,
+				39E1E4BF1DBD58BE00A5DA3A /* Xcode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E292B9C51B9236B500D75DE2 /* Serialization.swift in Sources */,
-				E292B9C91B92380300D75DE2 /* Extensions.swift in Sources */,
-				E21D91B71B7B1A9000FD0374 /* XCProjectFile.swift in Sources */,
-				E292B9CB1B92384B00D75DE2 /* PBXObject.swift in Sources */,
+				39E1E4C01DBD58BE00A5DA3A /* XCProjectFile.swift in Sources */,
+				39E1E4BB1DBD58BE00A5DA3A /* Extensions.swift in Sources */,
+				39E1E4BE1DBD58BE00A5DA3A /* Serialization.swift in Sources */,
+				39E1E4BD1DBD58BE00A5DA3A /* PBXObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21D91AD1B7B1A5D00FD0374 /* XcodeTests.swift in Sources */,
+				39E1E4C91DBD591600A5DA3A /* XcodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +351,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Xcode/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nonstrict.$(PRODUCT_NAME:rfc1034identifier)";
@@ -372,7 +372,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Xcode/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nonstrict.$(PRODUCT_NAME:rfc1034identifier)";
@@ -386,6 +386,7 @@
 		E21D91B41B7B1A5D00FD0374 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -395,7 +396,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = XcodeTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nonstrict.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,12 +407,13 @@
 		E21D91B51B7B1A5D00FD0374 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = XcodeTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nonstrict.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
